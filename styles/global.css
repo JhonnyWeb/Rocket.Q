@@ -21,6 +21,8 @@ html {
     --grey-blue: #A1B2CD;
     --grey-light: #E5EAF1;
 
+    --grey-medium: #EAECF2;
+
 
     /*1rem = 16px*/
     font-size: 62.5%; /*10px*/
@@ -85,7 +87,7 @@ button:hover, .button:hover {
     
 }
 
-button > img
+button > img,
 .button > img {
     margin-right: 1rem;
     width: 2rem;
