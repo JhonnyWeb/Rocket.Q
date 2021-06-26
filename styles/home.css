@@ -39,7 +39,7 @@ main h2 {
 }
 input:focus{
     outline: none; 
-    border: 3px solid var(--blue);
+    border: 2px solid var(--blue);
 }
 
 input {
