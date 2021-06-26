@@ -87,3 +87,26 @@
     padding: .8rem 2.4rem;
     line-height: 2.4rem;
 }
+
+.question-wrapper {
+    background: var(--grey-blue);
+    border: .2rem solid var(--grey-blue);
+    padding: 1.6rem;
+    border-radius:0 .8rem .8rem .8rem;
+    margin-bottom: 1.6rem;
+}
+
+ .question-content {
+     display: flex;
+     align-items: center;
+ }
+
+.user {
+    margin-right: 1.1rem;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    margin-right: 1.4rem;
+}
