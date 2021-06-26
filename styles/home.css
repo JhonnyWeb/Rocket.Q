@@ -37,10 +37,15 @@ main h2 {
 
 
 }
+input:focus{
+    outline: none; 
+    border: 3px solid var(--blue);
+}
 
 input {
     border: 0.2rem solid var(--grey-blue);
     padding: 0 1.6rem;
+    
 
 }
 
