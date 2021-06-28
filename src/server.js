@@ -15,6 +15,8 @@ server.use(express.static("public"))
 // seta e direciona o caminho do ejs para a pasta views
 server.set('views', path.join(__dirname, 'views'))
 
+server.use(express.urlencoded({extended: true}))
+
 // utiliza as rotas
 server.use(route)
 
