@@ -8,7 +8,7 @@ const modalButton = document.querySelector('.modal button')
 
 
 //Pegar todos os botões que existe com a classe check
-const checkButtons = document.querySelectorAll(".actions a.check") 
+const checkButtons = document.querySelectorAll(".action a.check") 
 
 checkButtons.forEach(button => {
     //adicionar a escuta
@@ -17,7 +17,7 @@ checkButtons.forEach(button => {
 
 
 /*Quando o botão delete for clicado ele abre a modal */
-const deleteButton = document.querySelectorAll(".actions a.delete")
+const deleteButton = document.querySelectorAll(".action a.delete")
 
 deleteButton.forEach(button => {
     button.addEventListener("click", (event) => handleClick(event, false))
